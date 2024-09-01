@@ -1,0 +1,145 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.firstbigdiv{
+    margin-top: 5%;
+    height: 65vh;
+    width: 55%;
+    gap: 5%;
+    background-color: white;
+    display: flex;
+    padding: 1% 1%;
+    border-radius: 5%;
+    box-shadow: 0 15px 45px -20px blue;
+}
+.seconddiv{
+    background-image: url("../multi-step-form/assets/bg-sidebar-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    border-radius: 5%;
+}
+.thirddiv{
+    padding: 1% 5%;
+    display: none;
+}
+.seconddiva{
+    display: flex;
+    gap: 5%;
+    margin-top: 5%;
+    margin-left: 21%;
+}
+.seconddivb{
+    display: flex;
+    gap: 5%;
+    margin-left: 20%;
+}
+.seconddivc{
+    display: flex;
+    gap: 5%;
+    margin-left: 20%;
+}
+.seconddivd{
+    display: flex;
+    gap: 5%;
+    margin-left: 20%;
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(182, 217, 248);
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: -15%;
+    padding: 1% 1%;
+    display: flex;
+    justify-content: center;
+}
+.incircle{
+    font-size: 13px;
+    margin-top: 15%;
+}
+.circlea{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: -15%;
+    padding: 1% 1%;
+    border: 2px solid rgba(255, 255, 255, 0.39);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.nocircle{
+    text-align: center;
+    margin-top: 10%;
+    padding: 1% 1%;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+}
+.cirspan{
+    color: rgba(255, 255, 255, 0.39);
+}
+.cirspan1{
+    font-size: 13px;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+.firsth1{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+}
+.firsth3{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.411);
+    margin-top: -5%;
+}
+.formdiv{
+    font-weight: bold;
+    padding: 3px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.forminput{
+    font-weight: 900;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2% 4%;
+    margin-bottom: 5%;
+    box-shadow: 0 15px 45px -20px blue;
+}
+#divs{
+    margin-top: 1%;
+}
+.spana{
+    color: rgb(231, 3, 3);
+}
+.btn{
+    border: 0px solid black;
+    border-radius: 20px;
+    padding: 3% 3%;
+    background-color: rgb(4, 4, 100);
+    color: white;
+}
+.btn:hover{
+    border: 2px solid rgb(4, 4, 100);
+    background-color: rgba(4, 4, 100, 0.144);
+    color: rgb(4, 4, 100);
+    font-weight: 800;
+}
+.forthdiv{
+    padding: 1% 5%;
+}
+.forthbigdiv{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
