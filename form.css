@@ -15,7 +15,7 @@ body{
     box-shadow: 0 15px 45px -20px blue;
 }
 .seconddiv{
-    background-image: url('../multi-step-form/images/bg-sidebar-desktop.svg');
+    background-image: url("images/bg-sidebar-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 30%;
