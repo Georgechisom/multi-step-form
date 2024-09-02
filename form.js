@@ -9,47 +9,37 @@ let user_data = [];
 
 btn.onclick = () =>{
     const form = document.querySelector("form");
-    // if (form.names.value === "") {
-    //     alert("Name field is empty, pls fill in your Full names");
-    // } else if (form.email.value === "") {
-    //     alert("No Email Address, pls fill in your email address");
-    // } else if (form.phone.value === "") {
-    //     alert("No Phone Number, pls fill in your phone number");
-    // } else {
-    //     form.addEventListener("submit", (e) => {
-    //         e.preventDefault();
-    //         console.log(e);
-    //         console.log(form.names.value, form.email.value, form.phone.value);
-    //         form.reset();
-    //     });
-    //     document.querySelector(".thirddiv").style.display = "none";
-    //     document.querySelector(".forthdiv").style.display = "block";
-    //     document.querySelector(".forththird").style.display = "none";
-    //     round_circle1.style.backgroundColor = "transparent";
-    //     round_circle1.style.border = "2px solid rgba(255, 255, 255, 0.39)";
-    //     round_circle1.style.color = "white";
-    //     round_circle2.style.backgroundColor = "rgb(182, 217, 248)";
-    //     round_circle2.style.color = "black";
-    //     sec_btn2.style.display = "none"
-    //     let name = [ form.names.value]
+    if (form.names.value === "") {
+        alert("Name field is empty, pls fill in your Full names");
+    } else if (form.email.value === "") {
+        alert("No Email Address, pls fill in your email address");
+    } else if (form.phone.value === "") {
+        alert("No Phone Number, pls fill in your phone number");
+    } else {
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            console.log(e);
+            console.log(form.names.value, form.email.value, form.phone.value);
+            form.reset();
+        });
+        document.querySelector(".thirddiv").style.display = "none";
+        document.querySelector(".forthdiv").style.display = "block";
+        document.querySelector(".forththird").style.display = "none";
+        round_circle1.style.backgroundColor = "transparent";
+        round_circle1.style.border = "2px solid rgba(255, 255, 255, 0.39)";
+        round_circle1.style.color = "white";
+        round_circle2.style.backgroundColor = "rgb(182, 217, 248)";
+        round_circle2.style.color = "black";
+        sec_btn2.style.display = "none"
+        let name = [ form.names.value]
             let email = [form.email.value]
             let phone = [form.phone.value]
             user_data.push(name)
             user_data.push(email)
             user_data.push(phone)
-    //     console.log(user_data);
-    // }
-    document.querySelector(".thirddiv").style.display = "none";
-    document.querySelector(".forthdiv").style.display = "block";
-    document.querySelector(".forththird").style.display = "none";
-    round_circle1.style.backgroundColor = "transparent";
-    round_circle1.style.border = "2px solid rgba(255, 255, 255, 0.39)";
-    round_circle1.style.color = "white";
-    round_circle2.style.backgroundColor = "rgb(182, 217, 248)";
-    round_circle2.style.color = "black";
-    sec_btn2.style.display = "none"
-    user_data.push(resform);
-    console.log(user_data);
+        console.log(user_data);
+    }
+
 }
 
 const sec_btn = document.querySelector(".secbtn1");
@@ -233,10 +223,3 @@ thirdbtn2.onclick = () => {
     round_circle4.style.color = "black";
     console.log(deeps);
 };
-
-// const sixsmalldiv1 = document.querySelector(".sixsmalldiv1");
-// sixsmalldiv1.onclick = () => {
-//     console.log("custom profile");
-//     fifbtn2.style.display = "block"
-//     let y = 2;
-// }
