@@ -23,7 +23,7 @@ body{
 }
 .thirddiv{
     padding: 1% 5%;
-    display: none;
+    /* display: none; */
 }
 .seconddiva{
     display: flex;
@@ -277,6 +277,7 @@ body{
 }
 .fifthdiv{
     width: 50%;
+    display: none;
 }
 .fifthbigdiv{
     display: flex;
@@ -310,7 +311,156 @@ body{
 }
 .checkee{
     border: 0px solid rgba(0, 0, 255, 0.596);
+    cursor: pointer;
+}
+.botton{
+    background-color: white; 
+    border: none;
+}
+.botton:hover{
+    background-color: aliceblue;
+}
+.botton1{
+    background-color: white; 
+    border: none;
+}
+.botton1:hover{
+    background-color: aliceblue;
+}
+.botton2{
+    background-color: white; 
+    border: none;
+}
+.botton2:hover{
+    background-color: aliceblue;
 }
 .deeps{
     color: black;
+}
+.fifbtn1{
+    border: none;
+    border-radius: 5px;
+    padding: 3% 3%;
+    background-color: white;
+    color: rgb(4, 4, 100);
+    font-weight: bold;
+}
+.fifbtn1:hover{
+    border: none;
+    color: rgb(4, 4, 100);
+    font-style: italic;
+}
+.fifbtn2{
+    border: 0px solid black;
+    border-radius: 5px;
+    background-color: rgb(4, 4, 100);
+    color: white;
+    width: 25%;
+    opacity: 1;
+}
+.fifbtn2:hover{
+    font-weight: bold;
+    border: 2px solid rgb(4, 4, 100);
+    background-color: white;
+    color: rgb(4, 4, 100);
+}
+.sixdiv{
+    width: 50%;
+    display: none;
+}
+.sixbigdiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    gap: 5%;
+    height: 35%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.sixsmalldiv{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5% 5%;
+    justify-content: space-between;
+    font-size: 13px;
+    align-items: center;
+    color: rgba(0, 0, 255, 0.596);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.change1{
+    color: blue;
+}
+.change{
+    color: whitesmoke;
+}
+.sixsmalldiv:hover,
+.change1,
+.change:hover{
+    border-bottom: 1px solid rgba(0, 0, 255, 0.596);
+    background-color: aliceblue;
+    font-style: italic;
+    color: blue;
+}
+.sixerdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 3%;
+}
+.ttext{
+    color: rgba(0, 0, 0, 0.534);
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tnum{
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.justseeing{
+    color: black;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thirdbtn2{
+    border: 0px solid black;
+    border-radius: 5px;
+    background-color: rgb(39, 39, 228);
+    color: white;
+    width: 25%;
+    opacity: 1;
+}
+.thirdbtn2:hover{
+    font-weight: bold;
+    border: 2px solid rgb(39, 39, 228);
+    background-color: white;
+    color: rgb(39, 39, 228);
+}
+.sevendiv{
+    width: 50%;
+    /* display: grid; */
+    display: none;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.thank{
+    margin: auto;
+    width: 70px;
+}
+.sevenh1{
+    font-size: 30px;
+}
+.sevenh3{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.329);
+    margin-top: -5%;
+}
+.sevenan{
+    color: rgba(0, 0, 0, 0.329);
+    text-decoration: none;
+    font-style: italic;
 }

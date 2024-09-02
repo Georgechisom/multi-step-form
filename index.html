@@ -11,7 +11,7 @@
     <div class="firstbigdiv">
         <section class="seconddiv">
             <div class="seconddiva">
-                <span class="circle"><b class="incircle">1</b></span>
+                <span class="circle" id="circle1"><b class="incircle">1</b></span>
                 <div class="nocircle">
                     <span class="cirspan">Step 1</span> <br>
                     <span class="cirspan1">YOUR INFO</span>
@@ -19,7 +19,7 @@
             </div>
 
             <div class="seconddivb">
-                <span class="circlea"><b class="incircle">2</b></span>
+                <span class="circlea" id="circle2"><b class="incircle">2</b></span>
                 <div class="nocircle">
                     <span class="cirspan">Step 2</span> <br>
                     <span class="cirspan1">SELECT PLAN</span>
@@ -27,7 +27,7 @@
             </div>
 
             <div class="seconddivc">
-                <span class="circlea"><b class="incircle">3</b></span>
+                <span class="circlea" id="circle3"><b class="incircle">3</b></span>
                 <div class="nocircle">
                     <span class="cirspan">Step 3</span> <br>
                     <span class="cirspan1">ADD-ONS</span>
@@ -35,7 +35,7 @@
             </div>
 
             <div class="seconddivd">
-                <span class="circlea"><b class="incircle">4</b></span>
+                <span class="circlea" id="circle4"><b class="incircle">4</b></span>
                 <div class="nocircle">
                     <span class="cirspan">Step 4</span> <br>
                     <span class="cirspan1">SUMMARY</span>
@@ -50,17 +50,17 @@
                 <div class="formdiv" id="divs">
                     <label for="">Name</label> <span class="spana"></span>
                 </div>
-                <input type="text" name="" id="" placeholder="Winsome snow" class="forminput">
+                <input type="text" name="names" id="" placeholder="Winsome snow" class="forminput" required>
 
                 <div class="formdiv">
                     <label for="">Email Adress</label> <span class="spana"></span>
                 </div>
-                <input type="email" name="" id="" placeholder="Winsomesnow@" class="forminput">
+                <input type="email" name="email" id="" placeholder="Winsomesnow@" class="forminput" required>
 
                 <div class="formdiv">
                     <label for="">Phone Number</label> <span class="spana"></span>
                 </div>
-                <input type="email" name="" id="" placeholder="eg +123 4567 890" class="forminput">
+                <input type="number" name="phone" id="" placeholder="eg +123 4567 890" class="forminput" required>
 
                 <button class="btn">Next Step</button>
             </form>
@@ -70,11 +70,12 @@
             <h1 class="firsth1">Select your plan</h1>
             <h3 class="firsth3">You have the option of monthly or yearly billing.</h3>
             <div class="forthbigdiv">
-                <div class="forthsmalldiv">
+                <div class="forthsmalldiv" names="arcade">
                     <img src="images/icon-arcade.svg" alt="arcade" class="arcimg">
                     <p class="forthpara">
                         Arcade
-                        <span class="forparaspan">$9/mo</span>
+                        <span class="forparaspan">$90/yr</span>
+                        <span class="justseeing">2 months free</span>
                     </p>
                 </div>
 
@@ -82,7 +83,8 @@
                     <img src="images/icon-advanced.svg" alt="arcade" class="arcimg">
                     <p class="forthpara">
                         Advanced
-                        <span class="forparaspan">$9/mo</span>
+                        <span class="forparaspan">$120/yr</span>
+                        <span class="justseeing">2 months free</span>
                     </p>
                 </div>
 
@@ -90,7 +92,8 @@
                     <img src="images/icon-pro.svg" alt="arcade" class="arcimg">
                     <p class="forthpara">
                         Pro
-                        <span class="forparaspan">$9/mo</span>
+                        <span class="forparaspan">$150/mo</span>
+                        <span class="justseeing">2 months free</span>
                     </p>
                 </div>
             </div>
@@ -115,23 +118,23 @@
             <div class="fifthbigdiv">
                 <div class="fifthsmalldiv">
                     <div class="fifthsmallerdiv">
-                        <input type="checkbox" name="" id="" class="checkee">
+                        <button type="button" class="botton"><input type="checkbox" name="" class="checkee" ></button>
                         <span><b class="deeps">Online service</b> <br> Access to mutiplayer games</span>
                     </div>
                     <span>+$1/mo</span>
                 </div>
 
-                <div class="fifthsmalldiv">
+                <div class="fifthsmalldiv" id="fifthsmalldiv1">
                     <div class="fifthsmallerdiv">
-                        <input type="checkbox" name="" id="" class="checkee">
+                        <button type="button" class="botton1"><input type="checkbox" name="" class="checkee" ></button>
                         <span><b class="deeps">Larger storage</b> <br> Extra 1TB of cloud service</span>
                     </div>
                     <span>+$2/mo</span>
                 </div>
 
-                <div class="fifthsmalldiv">
+                <div class="fifthsmalldiv" id="fifthsmalldiv2">
                     <div class="fifthsmallerdiv">
-                        <input type="checkbox" name="" id="" class="checkee">
+                        <button type="button" class="botton2"><input type="checkbox" name="" class="checkee" ></button>
                         <span><b class="deeps">Customizable Profile</b> <br> Custom theme on your profile</span>
                     </div>
                     <span>+$2/mo</span>
@@ -140,9 +143,54 @@
             
 
             <div class="groupbtn">
-                <button class="secbtn1">Go Back</button>
-                <button class="secbtn2">Next Step</button>
+                <button class="fifbtn1">Go Back</button>
+                <button class="fifbtn2">Next Step</button>
             </div>
+        </section>
+
+        <section class="sixdiv">
+            <h1 class="firsth1">Finishing up</h1>
+            <h3 class="firsth3">Double-check everything looks OK before confirming.</h3>
+            <div class="sixbigdiv">
+                <div class="sixsmalldiv">
+                    <div class="sixsmallerdiv" id="sixsmalldiv1">
+                        <span><b class="deeps" id="deeper">Arcade(Monthly)</b> <br> <b class="change1">change</b></span>
+                    </div>
+                    <span>+$<span id="figgi">9</span>/mo</span>
+                </div>
+                <div class="sixsmalldiv">
+                    <div class="sixsmallerdiv" id="sixsmalldiv2">
+                        <span><b class="deeps" id="deeper2">Online Service</b> <br> <b class="change">change</b></span>
+                    </div>
+                    <span>+$<span>1</span>/mo</span>
+                </div>
+                <div class="sixsmalldiv">
+                    <div class="sixsmallerdiv" id="sixsmalldiv3">
+                        <span><b class="deeps" id="deeper3">Larger Storage</b> <br> <b class="change">change</b></span>
+                    </div>
+                    <span>+$<span>2</span>/mo</span>
+                </div>
+
+            </div>
+            <div>
+                <div class="sixerdiv">
+                    <b class="ttext">Total (per month)</b> <b class="tnum">+$12/mo</b>
+                </div
+            ></div>
+            
+
+            <div class="groupbtn">
+                <button class="secbtn1">Go Back</button>
+                <button class="thirdbtn2">Confirm</button>
+            </div>
+        </section>
+
+        <section class="sevendiv">
+            <img src="images/icon-thank-you.svg" alt="thany_You" class="thank">
+            <h1 class="sevenh1">Thank you!</h1>
+            <h3 class="sevenh3">
+                Thanks for confirming your subscription! we hope you have <br> fun using our platform. if you ever need support, please feel <br> free to email us at <a href="mailto:winsome@gmail.com" class="sevenan">winsome@gmail.com</a>
+            </h3>
         </section>
     </div>
 
