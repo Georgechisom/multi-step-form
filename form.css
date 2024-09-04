@@ -18,33 +18,32 @@ body{
     background-image: url("images/bg-sidebar-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 30%;
+    background-position: 100% 100%;
     border-radius: 5%;
+    padding: 0% 5%;
+    display: flex;
+    flex-direction: column;
 }
 .thirddiv{
     padding: 1% 5%;
     /* display: none; */
 }
 .seconddiva{
+    margin-top: 20%;
     display: flex;
     gap: 5%;
-    margin-top: 5%;
-    margin-left: 21%;
 }
 .seconddivb{
     display: flex;
     gap: 5%;
-    margin-left: 20%;
 }
 .seconddivc{
     display: flex;
     gap: 5%;
-    margin-left: 20%;
 }
 .seconddivd{
     display: flex;
     gap: 5%;
-    margin-left: 20%;
 }
 .circle{
     width: 25px;
@@ -59,7 +58,7 @@ body{
 }
 .incircle{
     font-size: 13px;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 .circlea{
     width: 25px;
@@ -80,6 +79,7 @@ body{
     text-align: left;
     color: white;
     font-size: 15px;
+    width: 100%;
 }
 .cirspan{
     color: rgba(255, 255, 255, 0.39);
@@ -122,18 +122,25 @@ body{
 .spana{
     color: rgb(231, 3, 3);
 }
+.btnstart{
+    text-align: end;
+}
+.btnstarthide{
+    text-align: end;
+}
 .btn{
-    border: 0px solid black;
-    border-radius: 20px;
+    border: 2px solid rgb(4, 4, 100);
+    border-radius: 10px;
     padding: 3% 3%;
     background-color: rgb(4, 4, 100);
     color: white;
+    margin-left: auto;
 }
 .btn:hover{
     border: 2px solid rgb(4, 4, 100);
     background-color: rgba(4, 4, 100, 0.144);
     color: rgb(4, 4, 100);
-    font-weight: 800;
+    font-weight: bold;
 }
 .forthdiv{
     padding: 0% 5%;
@@ -463,4 +470,7 @@ body{
     color: rgba(0, 0, 0, 0.329);
     text-decoration: none;
     font-style: italic;
+}
+.eightdiv{
+    display: none;
 }

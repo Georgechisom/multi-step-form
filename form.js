@@ -160,7 +160,7 @@ const opens = document.querySelector(".botton");
 opens.onclick = () => {
     console.log("online service");
     fifbtn2.style.display = "block"
-    let z = 1;
+    let z = 10;
     let services = ["online service"];
     let serviceamount = [z]
     user_data.push(services);
@@ -171,7 +171,7 @@ const opens1 = document.querySelector(".botton1");
 opens1.onclick = () => {
     console.log("large storage");
     fifbtn2.style.display = "block"
-    let x = 2;
+    let x = 20;
     let services = ["large storage"];
     let serviceamount = [x]
     user_data.push(services);
@@ -182,7 +182,7 @@ const opens2 = document.querySelector(".botton2");
 opens2.onclick = () => {
     console.log("custom profile");
     fifbtn2.style.display = "block"
-    let y = 2;
+    let y = 20;
     let services = ["custom profile"];
     let serviceamount = [y]
     user_data.push(services);
@@ -191,11 +191,12 @@ opens2.onclick = () => {
 
 const deeps = document.getElementById("deeper");
 const deeps2 = document.getElementById("deeper2");
-const deeps3 = document.getElementById("deeper3");
 const figgi = document.getElementById("figgi");
-function result_plan() {
-    
-}
+const figgi1 = document.getElementById("figgi1");
+const toyota = document.getElementById("toyota");
+const sixsmalldiv = document.getElementById("sixsmalldiv");
+const sixsmalldiv1 = document.getElementById("sixsmalldiv11");
+
 console.log(user_data.plan);
 fifbtn2.onclick = () => {
     document.querySelector(".fifthdiv").style.display = "none";
@@ -203,13 +204,39 @@ fifbtn2.onclick = () => {
     deeps.innerHTML = `${user_data[3]}(${(user_data[5])})`;
     figgi.innerHTML = `${user_data[4]}`;
     deeps2.innerHTML = `${user_data[6]}`;
+    figgi1.innerHTML = `${user_data[7]}`;
     fifbtn2.style.display = "none";
+    document.getElementById("hideme").style.display = "none"
     round_circle3.style.backgroundColor = "transparent";
     round_circle3.style.border = "2px solid rgba(255, 255, 255, 0.39)";
     round_circle3.style.color = "white";
     round_circle4.style.backgroundColor = "rgb(182, 217, 248)";
     round_circle4.style.color = "black";
-    console.log(deeps);
+};
+
+sixsmalldiv.onclick = () => {
+    document.querySelector(".sixdiv").style.display = "none";
+    document.querySelector(".forthdiv").style.display = "block";
+    document.querySelector(".fifthdiv").style.display = "none";
+    round_circle4.style.backgroundColor = "transparent";
+    round_circle4.style.border = "2px solid rgba(255, 255, 255, 0.39)";
+    round_circle4.style.color = "white";
+    round_circle3.style.backgroundColor = "transparent";
+    round_circle3.style.border = "2px solid rgba(255, 255, 255, 0.39)";
+    round_circle3.style.color = "white";
+    round_circle2.style.backgroundColor = "rgb(182, 217, 248)";
+    round_circle2.style.color = "black";
+};
+
+sixsmalldiv11.onclick = () => {
+    document.querySelector(".sixdiv").style.display = "none";
+    document.querySelector(".forthdiv").style.display = "none";
+    document.querySelector(".fifthdiv").style.display = "block";
+    round_circle4.style.backgroundColor = "transparent";
+    round_circle4.style.border = "2px solid rgba(255, 255, 255, 0.39)";
+    round_circle4.style.color = "white";
+    round_circle3.style.backgroundColor = "rgb(182, 217, 248)";
+    round_circle3.style.color = "black";
 };
 
 const thirdbtn2 = document.querySelector(".thirdbtn2")
@@ -221,5 +248,5 @@ thirdbtn2.onclick = () => {
     round_circle3.style.color = "white";
     round_circle4.style.backgroundColor = "rgb(182, 217, 248)";
     round_circle4.style.color = "black";
-    console.log(deeps);
+    console.log(user_data);
 };

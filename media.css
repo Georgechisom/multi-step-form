@@ -1,0 +1,185 @@
+@media (max-width: 1280px) {
+    .firstbigdiv{
+        margin-top: 0%;
+        height: 0%;
+        width: 100%;
+        gap: 0%;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0% 0%;
+        border-radius: 0%;
+        box-shadow: none;
+    }
+    .seconddiv{
+        background-size: cover;
+        background-position: 100% 100%;
+        border-radius: 0%;
+        padding: 15% 0%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+    }
+    .nocircle{
+        display: none;
+    }
+    .seconddiva{
+        display: flex;
+        margin-top: 0%;
+    }
+    .seconddivb{
+        display: flex;
+        gap: 0%;
+    }
+    .seconddivc{
+        display: flex;
+        gap: 0%;
+    }
+    .seconddivd{
+        display: flex;
+        margin-left: 0%;
+    }
+    .circle{
+        width: 45px;
+        height: 45px;
+        background-color: rgb(112, 183, 245);
+        border-radius: 70%;
+        margin-top: 0%;
+        margin-left: 0%;
+        padding: 0% 0%;
+    }
+    .incircle{
+        font-size: 20px;
+        margin-top: 20%;
+    }
+    .circlea{
+        width: 45px;
+        height: 45px;
+        border-radius: 70%;
+        margin-top: 0%;
+        margin-left: 0%;
+        padding: 0% 0%;
+        border: 2px solid rgba(255, 255, 255, 0.39);
+        color: white;
+    }
+    .thirddiv{
+        padding: 1% 5%;
+        background-color: white;
+        box-shadow: 0 15px 45px -20px blue;
+        position: relative;
+        opacity: 1;
+        margin: -10% 5%;
+        width: 80%;
+        border-radius: 5%;
+        font-size: 15px !important;
+    }
+    .firsth1{
+        font-size: 23px;
+    }
+    .firsth3{
+        font-size: 13px;
+        margin-top: 0%;
+    }
+    .btnstart{
+        display: flex;
+        padding: 3% 0%;
+        width: 100%;
+    }
+    .btn{
+        padding: 5% 5%;
+        width: 37%;
+    }
+    .forthdiv{
+        padding: 1% 5%;
+        background-color: white;
+        box-shadow: 0 15px 45px -20px blue;
+        position: relative;
+        opacity: 1;
+        margin: -10% 5%;
+        width: 80%;
+        border-radius: 5%;
+        font-size: 15px !important;
+    }
+    .arcimg{
+        width: 25px;
+    }
+    .forthpara{
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .forparaspan{
+        font-size: 10px;
+    }
+    .secbtn2{
+        width: 35%;
+    }
+    .justseeing{
+        font-size: 8px;
+    }
+    .fifthdiv{
+        padding: 1% 5%;
+        background-color: white;
+        box-shadow: 0 15px 45px -20px blue;
+        position: relative;
+        opacity: 1;
+        margin: -10% 5%;
+        width: 80%;
+        border-radius: 5%;
+        font-size: 15px !important;
+    }
+    .fifthbigdiv{
+        height: 70%;
+    }
+    .fifbtn2{
+        width: 35%;
+    }
+    .sixdiv{
+        padding: 1% 5%;
+        background-color: white;
+        box-shadow: 0 15px 45px -20px blue;
+        position: relative;
+        opacity: 1;
+        margin: -10% 5%;
+        width: 80%;
+        border-radius: 5%;
+        font-size: 15px !important;
+    }
+    .sixsmalldiv{
+        font-size: 11px;
+    }
+    .mereduce{
+        font-size: 11px;
+    }
+    .ttext{
+        font-size: 11px;
+    }
+    .tnum{
+        font-size: 14px;
+    }
+    .thirdbtn2{
+        width: 35%;
+    }
+    .sevendiv{
+        padding: 1% 5%;
+        background-color: white;
+        box-shadow: 0 15px 45px -20px blue;
+        position: relative;
+        opacity: 1;
+        margin: -10% 5%;
+        width: 80%;
+        border-radius: 5%;
+        font-size: 15px !important;
+    }
+    .thank{
+        width: 45px;
+        padding: 1% 1%;
+    }
+    .sevenh1{
+        font-size: 20px;
+    }
+    .sevenh3{
+        font-size: 8px;
+    }
+}
